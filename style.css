@@ -1,0 +1,78 @@
+body {
+  background-color: #444;
+  font-family: "Courier New", Courier, monospace;
+}
+
+select {
+  cursor: pointer;
+  width: 75px;
+  padding: 3px;
+  background-color: white;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+p {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 62.5%;
+  left: 50%;
+  color: white;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: smaller;
+  opacity: 0.5;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.btn {
+  background-color: #444;
+  color: white;
+  padding: 5px;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 80px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: transparent;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222;
+  padding: 1.5rem;
+  width: max-content;
+  border-radius: 20px;
+}
+
+#target {
+  margin: 0;
+  color: rgb(0, 200, 0);
+  font-size: 5rem;
+  text-align: center;
+}
+
+#input {
+  width: 70px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  color: white;
+}
+
+#input:focus {
+  outline: none;
+  border-bottom: 1px solid white;
+}
